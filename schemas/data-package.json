@@ -126,13 +126,6 @@
           },
           "role": {
             "type": "string",
-            "enum": [
-              "publisher",
-              "author",
-              "maintainer",
-              "wrangler",
-              "contributor"
-            ],
             "default": "contributor"
           }
         },
