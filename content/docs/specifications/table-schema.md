@@ -291,11 +291,9 @@ An array of string keywords to assist users searching for the schema in catalogs
 Links to example files using the schema. This allows the 
 schema to be shared with data resources to illustrate it.
 
-If present, it `MUST` be a non-empty array of objects. Each object `MUST` have 
-a "title" and a "path" property. The "title" properties are human-readable 
-strings. The "path" property is the URL to the example file, it `MUST` be a 
-fully qualified URL as described in [RFC 
-1738](https://www.ietf.org/rfc/rfc1738.txt).
+If present, it `MUST` be a non-empty array of objects. Each object is a 
+[Data Resource](https://datapackage.org/standard/data-package/) that `MUST` at least 
+have the `title` and `path` property. The `path` must be a URL.
 
 #### `created`
 
