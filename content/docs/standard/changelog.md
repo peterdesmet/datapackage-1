@@ -77,6 +77,50 @@ The Data Package (v2) draft release includes a rich set of the specification imp
 - It should now always be an array of strings, not a string ([#28](https://github.com/frictionlessdata/datapackage/pull/28)).
 - `foreignKeys.reference.resource` can now be omitted for self-referencing foreign keys. Previously it required setting `resource` to an empty string ([#29](https://github.com/frictionlessdata/datapackage/pull/29)).
 
+##### `name` (new)
+
+[`name`](../../specification/table-schema/#name) is a simple name or 
+identifier.
+
+##### `title` (new)
+
+[`title`](../../specification/table-schema/#title) is a string providing a 
+title or one sentence description for the schema.
+
+##### `description` (new)
+
+[`description`](../../specification/table-schema/#description) is a description of the schema.
+
+##### `homepage` (new)
+
+[`homepage`](../../specification/table-schema/#description) URL for the home 
+on the web that is related to the schema.
+
+##### `keywords` (new)
+
+[`keywords`](../../specification/table-schema/#keywords) is a list of short 
+keywords related to the schema.
+
+##### `examples` (new)
+
+[`examples`](../../specification/table-schema/#examples) contains links to example data files. This allows the schema to be shared with data resources to illustrate it.
+
+##### `created` (new)
+
+[`created`](../../specification/table-schema/#created) is the datetime on 
+which the schema was created. 
+
+##### `version` (new)
+
+[`version`](../../specification/table-schema/#version) stores the version of the schema.
+
+##### `contributors` (new)
+
+[`contributors`](../../specification/table-schema/#contributors) stores people 
+or oganizations that contributed to the schema.
+ 
+An adjusted [Metadata in Table Schema](https://specs.frictionlessdata.io/patterns/#table-schema-metadata-properties) pattern has been promoted to the standard ([#63](https://github.com/frictionlessdata/datapackage/pull/63)).
+
 #### Fields
 
 ##### `missingValues` (new)
