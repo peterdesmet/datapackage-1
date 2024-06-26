@@ -280,7 +280,7 @@ Package](https://datapackage.org/specifications/data-package/#description).
 
 #### `homepage`
        
-A URL for the home on the web that is related to this data package.
+A URL for the home on the web that is related to this schema.
 
 If present, it `MUST` be a fully qualified URL as described in [RFC 1738](https://www.ietf.org/rfc/rfc1738.txt). 
 
@@ -303,8 +303,7 @@ fully qualified URL as described in [RFC
 
 #### `created`
 
-The `created` property contains the datetime on which the schema was created, 
-or last updated, as for [Data 
+The `created` property contains the datetime on which the schema was created, as for [Data 
 Package](https://datapackage.org/specifications/data-package/#created)
 
 #### `version`
