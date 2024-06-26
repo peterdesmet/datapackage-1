@@ -267,32 +267,30 @@ Data consumer MUST support the `foreignKey.fields` and `foreignKey.reference.fie
 
 #### `name`
 
-A simple name or identifier as for [Data Package](https://datapackage.org/specifications/data-package/#name)
+A simple name or identifier for the schema (cf. [Data Package](https://datapackage.org/standard/data-package/#name)).
 
 #### `title`
        
-A string providing a title or one sentence description for this schema.
+A string providing a title or one sentence description for the schema.
 
 #### `description`
        
-A description of the schema as for [Data 
-Package](https://datapackage.org/specifications/data-package/#description).
+A description of the schema (cf. [Data 
+Package](https://datapackage.org/standard/data-package/#description)).
 
 #### `homepage`
        
-A URL for the home on the web that is related to this schema.
 
 If present, it `MUST` be a fully qualified URL as described in [RFC 1738](https://www.ietf.org/rfc/rfc1738.txt). 
+A URL for the home on the web that is related to the schema.
 
 #### `keywords`
 
-The `keywords` property is a list of short keywords related to the schema.
-
-If present, it `MUST` be a non-empty array of strings.
+An array of string keywords to assist users searching for the schema in catalogs.
 
 #### `examples`
 
-The `examples` property contains links to example data files. This allows the 
+Links to example files using the schema. This allows the 
 schema to be shared with data resources to illustrate it.
 
 If present, it `MUST` be a non-empty array of objects. Each object `MUST` have 
@@ -303,21 +301,20 @@ fully qualified URL as described in [RFC
 
 #### `created`
 
-The `created` property contains the datetime on which the schema was created, as for [Data 
-Package](https://datapackage.org/specifications/data-package/#created)
+The datetime on which the schema was created (cf. [Data 
+Package](https://datapackage.org/standard/data-package/#created).
 
 #### `version`
 
-The `version` property stores the version of the schema, as for [Data 
-Package](https://datapackage.org/specifications/data-package/#version). If not 
-specified the schema inherits from the data package if distributed in a data package descriptor.
-
+A version string identifying the version of the schema (cf. [Data 
+Package](https://datapackage.org/standard/data-package/#version). If not 
+specified, the schema inherits from the data package if distributed in a 
+data package descriptor.
  
 #### `contributors`
 
-The `contributors` property stores people or oganizations that contributed to 
-the schema, as for [Data 
-Package](https://datapackage.org/specifications/data-package/#contributors).  
+The people or organizations who contributed to the schema (cf. [Data 
+Package](https://datapackage.org/standard/data-package/#contributors).  
 If not specified the schema inherits from the data package if distributed in a 
 data package descriptor.
 
