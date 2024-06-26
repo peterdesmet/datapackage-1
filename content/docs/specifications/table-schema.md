@@ -280,8 +280,6 @@ Package](https://datapackage.org/standard/data-package/#description)).
 
 #### `homepage`
        
-
-If present, it `MUST` be a fully qualified URL as described in [RFC 1738](https://www.ietf.org/rfc/rfc1738.txt). 
 A URL for the home on the web that is related to the schema.
 
 #### `keywords`
