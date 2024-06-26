@@ -93,8 +93,8 @@ title or one sentence description for the schema.
 
 ##### `homepage` (new)
 
-[`homepage`](../../specification/table-schema/#description) URL for the home 
-on the web that is related to the schema.
+[`homepage`](../../specification/table-schema/#homepage) URL for the home on 
+the web that is related to the schema.
 
 ##### `keywords` (new)
 
